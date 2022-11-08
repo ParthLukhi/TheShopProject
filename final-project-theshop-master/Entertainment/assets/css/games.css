@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-size: 16px; */
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(#87abe3,#fcf7f4);
+}
+
+
+/* ENTERTAINMENT STARTS */
+
+.g{
+    font-size: medium;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 15px;
+    background:linear-gradient(rgb(136, 166, 198), #48678dca)
+}
+
+h1{
+    padding-top: 15px;
+    /* text-decoration: underline; */
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(32, 71, 113);
+}
+
+
+.games{
+    margin-top: 80px;
+    /* margin-bottom: 15em; */
+    padding: 55px;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center     ;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.game{
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+h3{
+    font-weight: lighter;
+}
+
+.game p{
+    font-size: larger;
+}
+
+#ga{
+    border-radius: 20%;
+}
+
+img .hover-shadow{
+    transition: 0.5s;
+}
+
+.hover-shadow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

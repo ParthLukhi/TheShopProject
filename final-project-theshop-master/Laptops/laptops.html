@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Laptops Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/queries.css">
+</head>
+
+<body onload="addCard()">
+    <div class="canvas">
+        <div class="wrapper">
+
+            <!-- HEADER SECTION STARTS -->
+            <header class="header">
+                <a class="logo-link" href="../index.html">
+                    <img class="logo-img" src="assets/img/logo.png" alt="The Shop Logo">
+                </a>
+                <nav class="main-nav">
+                    <div class="toggle-btn">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="main-nav-list">
+                        <li class="main-nav-item"><a class="main-nav-link" href="../index.html">Home</a></li>
+                        <li class="main-nav-item"><a class="main-nav-link"
+                                href="../entertainment/aboutus.html">About</a></li>
+                        <li class="main-nav-item has-sub-nav-list"><a class="main-nav-link"
+                                href="../fashion/products.html">Products <i class="fa fa-caret-down"></i></a>
+                            <ul class="sub-nav-list">
+                                <li class="main-nav-item sub-list"><a class="sub-nav-link"
+                                        href="../books/all_books.html">Books</a></li>
+                                <li class="main-nav-item sub-list"><a class="sub-nav-link"
+                                        href="../entertainment/entertainment.html">Entertainment</a>
+                                </li>
+                                <li class="main-nav-item sub-list"><a class="sub-nav-link"
+                                        href="../fashion/fashion.html">Fashion</a>
+                                </li>
+                                <li class="main-nav-item sub-list"><a class="sub-nav-link current" href="#">Laptops</a>
+                                </li>
+                                <li class="main-nav-item sub-list"><a class="sub-nav-link"
+                                        href="../NutsShop/html/nuts.html">Nuts</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-nav-item"><a class="main-nav-link" href="contact.html">Contact</a></li>
+                        <li class="main-nav-item"><a class="main-nav-link" href="../NutsShop/html/login.html">Login</a></li>
+                        <li class="main-nav-item"><span class="main-nav-link icon"><i
+                                    class="fa fa-shopping-bag"></i></span></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- HEADER SECTION ENDS -->
+
+            <!-- HERO SECTION STARTS HERE -->
+            <div class="hero-img-1 slides">
+                <div class="hero-container">
+                    <h1><span class="hero-headline">Laptop Store</span></h1>
+                    <span class="hero-sub">One stop shop for all your laptop needs</span>
+                </div>
+            </div>
+            <div class="hero-img-2 slides">
+                <div class="hero-container">
+                    <h1><span class="hero-headline">Pick out of the best</span></h1>
+                    <span class="hero-sub">We have done the research for you</span>
+                </div>
+            </div>
+            <div class="hero-img-3 slides">
+                <div class="hero-container">
+                    <h1><span class="hero-headline">Top offers on Laptops</span></h1>
+                    <span class="hero-sub">Unleash the creator in you</span>
+                </div>
+            </div>
+            <!-- HERO SECTION ENDS HERE -->
+
+            <main class="main-box">
+                <!-- SIDEBAR SECTION STARTS -->
+                <div class="grid-container sidebar">
+                    <div class="grid-item features-box">
+                        <h2 class="shop-title-text">Featured Brands</h2>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="brand-1" value="brand" />
+                            <label for="brand-1">Acer</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="brand-2" value="brand" />
+                            <label for="brand-2">Apple</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="brand-3" value="brand" />
+                            <label for="brand-3">Asus</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="brand-4" value="brand" />
+                            <label for="brand-4">Dell</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="brand-5" value="brand" />
+                            <label for="brand-5">HP</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="brand-6" value="brand" />
+                            <label for="brand-6">Lenovo</label>
+                        </div>
+                    </div>
+                    <div class="grid-item features-box">
+                        <h2 class="shop-title-text">Battery Life</h2>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="battery-1"
+                                value="battery" />
+                            <label for="battery-1">Up to 4 hours</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="battery-2"
+                                value="battery" />
+                            <label for="battery-2">4 - 6 hours</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="battery-3"
+                                value="battery" />
+                            <label for="battery-3">6 - 8 hours</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="battery-4"
+                                value="battery" />
+                            <label for="battery-4">8 Hours and above</label>
+                        </div>
+                    </div>
+                    <div class="grid-item features-box">
+                        <h2 class="shop-title-text">RAM Size</h2>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="ram-1" value="ram" />
+                            <label for="ram-1">4 GB</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="ram-2" value="ram" />
+                            <label for="ram-2">8 GB</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="ram-3" value="ram" />
+                            <label for="ram-3">16 GB</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="ram-4" value="ram" />
+                            <label for="ram-4">32 GB</label>
+                        </div>
+                    </div>
+                    <div class="grid-item features-box">
+                        <h2 class="shop-title-text">Availability</h2>
+                        <div class="checkbox-container">
+                            <input class="input-checkbox" type="checkbox" name="checkbox" id="availability"
+                                value="availability" />
+                            <label for="availability">Include Out of Stock</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- SIDEBAR SECTION ENDS -->
+
+                <!-- CONTENT SECTION STARTS -->
+                <div class="content">
+                    <h1 class="heading-primary">Laptops</h1>
+
+                    <!-- SORTING BUTTON AREA STARTS -->
+                    <form id="sort-form">
+                        <label class="sort-text" for="sort-select">Sort by</label>
+                        <select name="sort-select" id="sort-select">
+                            <option value="low-to-high">Low to High (Price)</option>
+                            <option value="high-to-low">High to Low (Price)</option>
+                            <option value="customer-reviews">Customer Reviews</option>
+                        </select>
+                        <input type="button" value="Sort" id="sort-btn" />
+                    </form>
+                    <!-- SORTING BUTTON AREA ENDS -->
+
+                    <div id="card-container" class="card-container">
+                        <!-- information populated from 'script.js' file -->
+                    </div>
+                </div>
+            </main>
+            <!-- CONTENT SECTION ENDS -->
+
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION STARTS -->
+    <footer class="footer">
+
+        <!-- FOOTER ROW STARTS -->
+        <div class="footer-grid-container footer-row">
+
+            <!-- LEFT COLUMN STARTS -->
+            <div class="footer-grid-item column left">
+                <p class="footer-title-text">Download our App</p>
+                <p class="footer-text">Download our app at both PlayStore as well as AppStore</p>
+                <div class="app-icons">
+                    <img src="./assets/img/apple.png" alt="App Store">
+                    <img src="./assets/img/google.png" alt="Google Play Store">
+                </div>
+            </div>
+            <!-- LEFT COLUMN ENDS -->
+
+            <!-- MIDDLE COLUMN STARTS -->
+            <div class="footer-grid-item column middle">
+                <a class="logo-link" href="../index.html">
+                    <img class="footer-logo-img" src="assets/img/logo.png" alt="The Shop Logo">
+                </a>
+                <p class="footer-text">Anything you need THE SHOP is always there for you 😊</p>
+            </div>
+            <!-- MIDDLE COLUMN ENDS -->
+
+            <!-- RIGHT COLUMN STARTS -->
+            <div class="footer-grid-item column right">
+                <div>
+                    <p class="footer-title-text">Useful Links</p>
+                    <ul class="footer-nav-list">
+                        <li><a class="footer-nav-link" href="../index.html">Home</a></li>
+                        <li><a class="footer-nav-link" href="../entertainment/aboutus.html">About</a></li>
+                        <li><a class="footer-nav-link" href="../fashion/products.html">Products</a></li>
+                        <li><a class="footer-nav-link" href="contact.html">Contact</a></li>
+                        <li><a class="footer-nav-link" href="../NutsShop/html/login.html">Login</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="footer-title-text">Follow us</p>
+                    <ul class="social-nav-list">
+                        <li><span class="icon footer-icon"><i class="fa fa-facebook-official"></i></span></li>
+                        <li><span class="icon footer-icon"><i class="fa fa-instagram"></i></span></li>
+                        <li><span class="icon footer-icon"><i class="fa fa-twitter"></i></span></li>
+                        <li><span class="icon footer-icon"><i class="fa fa-youtube-play"></i></span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- RIGHT COLUMN ENDS -->
+
+        </div>
+        <!-- FOOTER ROW ENDS -->
+
+        <p class="copyright">Copyright &copy; 2022 - THE SHOP</p>
+    </footer>
+    <!-- FOOTER SECTION ENDS -->
+
+    <!-- Attaching Toggle Button JavaScript File -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

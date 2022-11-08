@@ -1,0 +1,43 @@
+@media only screen and (max-width: 850px) {
+    input,span,p,label,button{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    #inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    #register{
+        padding: 0;
+        width: 70%;
+    }
+    #login{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    input{
+        border-radius: 15px;
+        padding: .7rem 1rem;
+    }
+    h1{
+        font-size: 24px;
+    }
+    button{
+        border-radius: 15px;
+        padding: .8rem 1rem;
+    }
+    #sign-in-area{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #sign-in-area button{
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 400px){
+    #login,#register{
+        width: 80%;
+    }
+}

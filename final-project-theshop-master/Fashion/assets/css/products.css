@@ -1,0 +1,100 @@
+@font-face{
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+body{
+    background: radial-gradient(#87abe3,#fcf7f4);
+    font-family: 'Poppins';
+    font-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#wrapper{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/* MAIN SECTION STARTS */
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 2em;
+    margin-top: 40px;
+}
+.category{
+    width: 230px;
+    height: 300px;
+    background-color: white;
+    margin-top: 3em;
+    /* margin-left: 2em; */
+    border-top-left-radius: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    background-size: 110%;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    filter: brightness(100%);
+}
+.btn {
+    background-image: linear-gradient(to right, #87abe3 0%, #79CBCA  51%, #87abe3  100%);
+    padding: 2% 8%;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200%;
+    color: white;            
+    border-radius: 10px;
+    margin: 2em auto;
+    border: 3px solid white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.btn:hover{
+    color: black;
+}
+
+.btn a,
+.btn a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.category:hover{
+    padding: 0.5em;
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px 4px rgba(255,255,255,0.6);
+    background-size: 117%;
+    filter: brightness(103%);
+}
+.category:hover .btn{
+    font-size: 1.05em;
+    border: none;
+    background-position: right center;
+    cursor: pointer;
+}
+#books{
+    background-image: url("../img/categories/books.jpg");
+}
+#laptops{
+    background-image: url("../img/categories/laptops.jpg");
+}
+#fashion{
+    background-image: url("../img/categories/fashion.jpeg");
+}
+#entertainment{
+    background-image: url("../img/categories/entertainment.jpg");
+}
+#nuts{
+    background-image: url("../img/categories/nuts.jpg");
+    background-size: contain;
+}
+/* MAIN SECTION ENDS */

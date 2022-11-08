@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-size: 16px; */
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient( rgb(3, 4, 4), rgb(28, 29, 28));
+}
+
+/* TOP NAVIGATION FONT COLORS FOR MOVIES PAGE ONLY STARTS */
+.main-nav-link,
+.sub-nav-link {
+    color: #8a8a8a;
+}
+
+.icon {
+    color: #8a8a8a;
+}
+/* TOP NAVIGATION FONT COLORS FOR MOVIES PAGE ONLY ENDS */
+
+/* ENTERTAINMENT STARTS */
+
+.mov{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 15px;
+    background: radial-gradient(rgb(12, 32, 19),rgb(41, 93, 79));
+}
+
+h2{
+    padding-top: 15px;
+    /* text-decoration: underline; */
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(8, 28, 50);
+}
+
+
+.movie{
+    margin-top: 80px;
+    /* margin-bottom: 15em; */
+    padding: 55px;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.movies p{
+    font-size: larger;
+}
+.m{
+    border-radius: 5%;
+}

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-size: 16px; */
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(#87abe3,#fcf7f4);
+}
+
+
+/* ENTERTAINMENT STARTS */
+
+.e{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 5px;
+}
+
+h2{
+    padding-top: 15px;
+    text-decoration: underline;
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(8, 28, 50);
+}
+
+
+.ent{
+    margin-top: 80px;
+    /* margin-bottom: 15em; */
+    padding: 55px;
+    list-style-type: none;
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.books p{
+    font-size: large;
+}
+.b{
+    border-radius: 10%;
+}
+
+.movies p{
+    font-size: large;
+}
+#m{
+    border-radius: 10%;
+}
+img .hover-shadow{
+    transition: 0.5s;
+}
+
+.hover-shadow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.games p{
+    font-size: large;
+}
+#g{
+    border-radius: 10%;
+}
+img .hover-shadow{
+    transition: 0.5s;
+}
+
+.hover-shadow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.accessories p{
+    font-size: large;
+}
+#a{
+    border-radius: 10%;
+}
+img .hover-shadow{
+    transition: 0.5s;
+}
+
+.hover-shadow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toys p{
+    font-size: large;
+}
+
+#t{
+    border-radius: 10%;
+}
+img .hover-shadow{
+    transition: 0.5s;
+}
+
+.hover-shadow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.button {
+    background-color: #042b05; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.feed{
+    font-size: larger;
+}
+/* ENTERTAINMENT ENDS */

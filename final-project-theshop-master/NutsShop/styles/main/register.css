@@ -1,0 +1,23 @@
+#register-main{
+    width: 60%;
+    margin: 3rem auto;
+}
+.red{
+    color: red;
+}
+#create-account{
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(to right, #87abe3 0%, #79CBCA  51%, #87abe3  100%);
+    transition: 0.5s;
+    background-size: 200%;
+    border: none;
+    font-size: 16px;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    font-family: "Poppins";
+}
+
+#create-account:hover{
+    cursor: pointer;
+}

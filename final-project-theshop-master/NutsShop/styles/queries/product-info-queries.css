@@ -1,0 +1,74 @@
+@media only screen and (max-width: 1020px) {
+    #product-info-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #image-description, #main-info{
+        width:100%;
+    }
+    #image{
+        background-size: contain;
+        background-position: 50% 50%;
+    }
+    #nutrition-table{
+        width: 40%;
+        margin: 1rem auto;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #review-form{
+        width: 100%;
+    }
+    #nutrition-table{
+        width: 60%;
+        margin: 1rem auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #image{
+        height: 350px
+    }
+    #quentity{
+        width: 50%;
+        font-size: 16px;
+    }
+    .weight{
+        font-size: 16px;
+        padding: .5rem;
+    }
+    #quentity span{
+        padding: .7rem;
+    }
+    #add-to-cart{
+        font-size: 16px;
+        padding: .8rem;
+    }
+    #heart-icon{
+        font-size: 30px;
+    }
+    #price-area label{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    #description{
+        font-size: 14px;
+    }
+    #nutrition-table{
+        width: 80%;
+        font-size: 15px;
+    }
+    #review-form button{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    #review-form fieldset span, #review-form fieldset label{
+        padding: .3rem 0;
+    }
+    #review-form input, #review-form textarea{
+        padding: 1rem;
+        font-size: 14px;
+    }
+}

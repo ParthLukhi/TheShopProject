@@ -1,0 +1,667 @@
+@media only screen and (min-width: 1601px) {
+
+    /* HEADER FOOTER STARTS */
+    .wrapper {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    /* HEADER FOOTER ENDS */
+
+    /* CONTENT STARTS */
+    .scontainer {
+        width: 40%;
+        grid-template-columns: 250px;
+        display: grid;
+        gap: 17px;
+        padding: 10px;
+        justify-content: center;
+        grid-template-columns: 200px;
+        grid-template-areas:
+            "head head"
+            "firstName lastName"
+            "email email"
+            "password password"
+            "confirm confirm"
+            "policy policy"
+            "signup cancel"
+            "login login";
+    }
+
+    #idh3 {
+        font-size: 13px;
+    }
+
+    .input {
+        max-width: 175px;
+    }
+
+    #maingrid {
+        display: grid;
+        grid-template-columns: 204px 204px 204px 204px 204px 204px;
+        grid-template-rows: 430px 430px 100px;
+        gap: 25px;
+        justify-content: center;
+        grid-template-areas:
+            "header header header header header header"
+            "bk1 bk2 bk3 bk4 bk5 bk6"
+            "vid bk7 bk8"
+            "empt empt empt empt empt empt"
+        ;
+    }
+
+    #img3 {
+        margin-left: 80px;
+    }
+
+    #mequal {
+        margin-left: 90px;
+    }
+
+    /* CONTENT ENDS */
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+
+    /* HEADER FOOTER STARTS */
+    .wrapper {
+        max-width: 100%;
+        margin: auto;
+        padding: 0 3rem;
+    }
+
+    /* HEADER FOOTER ENDS */
+
+    /* CONTENT STARTS */
+    .scontainer {
+        width: 40%;
+        grid-template-columns: 250px;
+        display: grid;
+        gap: 17px;
+        padding: 10px;
+        justify-content: center;
+        grid-template-columns: 200px;
+        grid-template-areas:
+            "head head"
+            "firstName lastName"
+            "email email"
+            "password password"
+            "confirm confirm"
+            "policy policy"
+            "signup cancel"
+            "login login";
+    }
+
+    #maingrid {
+        display: grid;
+        grid-template-columns: 204px 204px 204px 204px 204px;
+        grid-template-rows: 430px 430px 100px;
+        gap: 25px;
+        justify-content: center;
+        grid-template-areas:
+            "header header header header header"
+            "bk1 bk2 bk3 bk4 bk5"
+            "vid bk6 bk7 bk8"
+            "empt empt empt empt empt"
+        ;
+    }
+
+    #idh3 {
+        font-size: 13px;
+    }
+
+    .input {
+        max-width: 175px;
+    }
+
+
+    #img3 {
+        margin-left: 80px;
+    }
+
+    #mequal {
+        margin-left: 90px;
+    }
+
+    /* CONTENT ENDS */
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+
+    /* HEADER FOOTER STARTS */
+    .wrapper {
+        max-width: 90%;
+        margin: auto;
+        padding: 0 3rem;
+    }
+
+    .footer {
+        padding: 3.6rem 4.2rem 1.2rem;
+    }
+
+    /* HEADER FOOTER ENDS */
+
+    /* CONTENT STARTS */
+    .scontainer {
+        width: 40%;
+        grid-template-columns: 250px;
+        display: grid;
+        gap: 17px;
+        padding: 10px;
+        justify-content: center;
+        grid-template-columns: 200px;
+        grid-template-areas:
+            "head head"
+            "firstName lastName"
+            "email email"
+            "password password"
+            "confirm confirm"
+            "policy policy"
+            "signup cancel"
+            "login login";
+    }
+
+    #maingrid {
+        display: grid;
+        grid-template-columns: 204px 204px 204px 204px 204px;
+        grid-template-rows: 430px 430px 100px;
+        gap: 25px;
+        justify-content: center;
+        grid-template-areas:
+            "header header header header header"
+            "bk1 bk2 bk3 bk4 bk5"
+            "vid bk6 bk7 bk8"
+            "empt empt empt empt empt"
+        ;
+    }
+
+    #img3 {
+        margin-left: 80px;
+    }
+
+    #mequal {
+        margin-left: 90px;
+    }
+
+    /* CONTENT ENDS */
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    /* HEADER FOOTER STARTS */
+    .wrapper {
+        max-width: 100%;
+        margin: auto;
+        padding: 0 3rem;
+    }
+
+    .footer {
+        padding: 3.6rem 2.4rem 1.2rem;
+    }
+
+    .footer-row {
+        margin-bottom: 0.8rem;
+    }
+
+    .footer-text {
+        font-size: 0.8rem;
+    }
+
+    .app-icons {
+        height: 2.4rem;
+        gap: 1rem;
+        margin-top: 1.6rem;
+    }
+
+    .footer-logo-img {
+        width: 9.5rem;
+        height: 9.5rem;
+        margin-bottom: 20px;
+    }
+
+    .left,
+    .right {
+        width: 30%;
+    }
+
+    .middle {
+        text-align: center;
+        width: 40%;
+    }
+
+    /* HEADER FOOTER ENDS */
+
+    /* CONTENT STARTS */
+    .scontainer {
+        width: 40%;
+        grid-template-columns: 250px;
+        display: grid;
+        gap: 17px;
+        padding: 10px;
+        justify-content: center;
+        grid-template-columns: 200px;
+        grid-template-areas:
+            "head head"
+            "firstName lastName"
+            "email email"
+            "password password"
+            "confirm confirm"
+            "policy policy"
+            "signup cancel"
+            "login login";
+    }
+
+
+    #maingrid {
+        display: grid;
+        grid-template-columns: 204px 204px 204px 204px;
+        grid-template-rows: 430px 430px 430px 430px 100px;
+        gap: 25px;
+        justify-content: center;
+        grid-template-areas:
+            "header header header header"
+            "bk1 bk2 bk3 bk4"
+            "bk5 bk6 bk7 bk8"
+            "vid bk6 bk7 bk8"
+            "empt empt empt empt"
+        ;
+    }
+
+    #img3 {
+        margin-left: 50px;
+    }
+
+    #mequal {
+        margin-left: 50px;
+    }
+
+    /* CONTENT ENDS */
+}
+
+@media only screen and (min-width: 796px) and (max-width: 992px) {
+
+    /* HEADER FOOTER STARTS */
+    .wrapper {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .footer-grid-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .footer-grid-item {
+        margin-bottom: 0rem;
+    }
+
+    .main-nav-list {
+        gap: 0.1rem;
+    }
+
+    .footer {
+        padding: 2.4rem 0;
+    }
+
+    .left {
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        padding: 2.4rem 9.6rem;
+    }
+
+    .middle {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+
+    .right {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* HEADER FOOTER ENDS */
+
+    /* CONTENT STARTS */
+    .scontainer {
+        width: 40%;
+        grid-template-columns: 250px;
+        display: grid;
+        gap: 17px;
+        padding: 10px;
+        justify-content: center;
+        grid-template-columns: 200px;
+        grid-template-areas:
+            "head head"
+            "firstName lastName"
+            "email email"
+            "password password"
+            "confirm confirm"
+            "policy policy"
+            "signup cancel"
+            "login login";
+    }
+
+    #idh3 {
+        font-size: 13px;
+    }
+
+    .input {
+        max-width: 175px;
+    }
+
+
+    #maingrid {
+        display: grid;
+        grid-template-columns: 204px 204px 204px;
+        grid-template-rows: 430px 430px 430px 430px 100px;
+        gap: 25px;
+        justify-content: center;
+        grid-template-areas:
+            "header header header"
+            "bk1 bk2 bk3"
+            "bk4 bk5 bk6"
+            "vid bk7 bk8"
+            "empt empt empt"
+        ;
+    }
+
+    #img3 {
+        margin-left: 30px;
+    }
+
+    #mequal {
+        margin-left: 30px;
+    }
+
+    /* CONTENT ENDS */
+}
+
+@media only screen and (min-width: 501px) and (max-width: 795px) {
+
+    /* HEADER FOOTER STARTS */
+    .wrapper {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .logo-img {
+        width: 4rem;
+    }
+
+    .footer-grid-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+
+    .footer-grid-item {
+        margin-bottom: 0rem;
+    }
+
+    .toggle-btn {
+        display: flex;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: transparent;
+    }
+
+    .main-nav-list {
+        position: fixed;
+        width: 100%;
+        left: -100%;
+        top: 4rem;
+        flex-direction: column;
+        text-align: center;
+        transition: 0.3s;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 999;
+    }
+
+    .main-nav-list.active {
+        left: 0;
+    }
+
+    .main-nav-item {
+        margin: 1rem 0;
+    }
+
+    .sub-nav-list {
+        margin-top: -2.7rem;
+        margin-left: 25rem;
+        padding-top: 0.3rem;
+    }
+
+    .main-nav-link {
+        margin-left: 0;
+    }
+
+    .footer {
+        padding: 2.4rem 0;
+    }
+
+    .left {
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        padding: 2.4rem 4.6rem;
+    }
+
+    .middle {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+
+    .right {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* HEADER FOOTER ENDS */
+
+    /* CONTENT STARTS */
+    .scontainer {
+        width: 40%;
+        grid-template-columns: 250px;
+        display: grid;
+        gap: 17px;
+        padding: 10px;
+        justify-content: center;
+        grid-template-columns: 200px;
+        grid-template-areas:
+            "head head"
+            "firstName lastName"
+            "email email"
+            "password password"
+            "confirm confirm"
+            "policy policy"
+            "signup cancel"
+            "login login";
+    }
+
+    #idh3 {
+        font-size: 13px;
+    }
+
+    .input {
+        max-width: 175px;
+    }
+
+
+    #maingrid {
+        display: grid;
+        grid-template-columns: 204px 204px;
+        grid-template-rows: 430px 430px 430px 430px 430px 100px;
+        gap: 25px;
+        justify-content: center;
+        grid-template-areas:
+            "header header"
+            "bk1 bk2"
+            "bk3 bk4"
+            "bk5 bk6"
+            "vid bk7"
+            "vid bk8"
+            "empt empt"
+        ;
+    }
+
+    #img3 {
+        margin-left: 30px;
+    }
+
+    #mequal {
+        margin-left: 30px;
+    }
+
+    /* CONTENT ENDS */
+}
+
+@media only screen and (max-width: 500px) {
+
+    /* HEADER FOOTER STARTS */
+    .wrapper {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .logo-img {
+        width: 4rem;
+    }
+
+    .footer-grid-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+
+    .footer-grid-item {
+        margin-bottom: 0rem;
+    }
+
+    .toggle-btn {
+        display: flex;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: transparent;
+    }
+
+    .main-nav-list {
+        position: fixed;
+        width: 100%;
+        left: -100%;
+        top: 4rem;
+        flex-direction: column;
+        text-align: center;
+        transition: 0.3s;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 999;
+    }
+
+    .main-nav-list.active {
+        left: 0;
+    }
+
+    .main-nav-item {
+        margin: 1rem 0;
+    }
+
+    .sub-nav-list {
+        margin-top: -2.7rem;
+        margin-left: 17rem;
+        padding-top: 0.3rem;
+    }
+
+    .main-nav-link {
+        margin-left: 0;
+    }
+
+    .footer {
+        padding: 2.4rem 0;
+    }
+
+    .left {
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        padding: 2.4rem 4.6rem;
+    }
+
+    .middle {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+
+    .right {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* HEADER FOOTER ENDS */
+
+    /* CONTENT STARTS */
+    .scontainer {
+        width: 40%;
+        grid-template-columns: 250px;
+        display: grid;
+        gap: 17px;
+        padding: 10px;
+        justify-content: center;
+        grid-template-columns: 200px;
+        grid-template-areas:
+            "head head"
+            "firstName lastName"
+            "email email"
+            "password password"
+            "confirm confirm"
+            "policy policy"
+            "signup cancel"
+            "login login";
+    }
+
+    #idh3 {
+        font-size: 13px;
+    }
+
+    .input {
+        max-width: 175px;
+    }
+
+    #maingrid {
+        display: grid;
+        grid-template-columns: 204px 204px;
+        grid-template-rows: 430px 430px 430px 430px 430px 100px;
+        gap: 25px;
+        justify-content: center;
+        grid-template-areas:
+            "header header"
+            "bk1 bk2"
+            "bk3 bk4"
+            "bk5 bk6"
+            "vid bk7"
+            "vid bk8"
+            "empt empt"
+        ;
+    }
+
+    #img3 {
+        margin-left: 30px;
+    }
+
+    #mequal {
+        margin-left: 30px;
+    }
+
+    /* CONTENT ENDS */
+}

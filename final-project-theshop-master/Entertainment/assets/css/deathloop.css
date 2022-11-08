@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-size: 16px; */
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(rgb(3, 4, 4), rgb(28, 29, 28));
+}
+
+/* TOP NAVIGATION FONT COLORS FOR DEATHLOOP PAGE ONLY STARTS */
+.main-nav-link,
+.sub-nav-link {
+    color: #8a8a8a;
+}
+
+.icon {
+    color: #8a8a8a;
+}
+/* TOP NAVIGATION FONT COLORS FOR DEATHLOOP PAGE ONLY ENDS */
+
+/*deathloop start*/
+.price {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    text-align: justify;
+}
+
+.rate {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.checked {
+    /* display: flex;
+    justify-content: center; */
+    color: rgb(247, 174, 39);
+    font-size: larger;
+}
+
+.dl {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 15px;
+    background: radial-gradient(#7e170e, #874f39);
+}
+
+h1 {
+    /* margin-bottom: 10%; */
+    /* padding-top: 15px; */
+    /* text-decoration: underline; */
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(8, 28, 50);
+    /* background: radial-gradient(#d24c24, #882305); */
+}
+
+.d {
+    font-size: medium;
+    border-radius: 5%;
+    margin-top: 80px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    text-align: justify;
+}
+
+#what {
+    padding-bottom: 20px;
+}
+
+#why {
+    padding: 50px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: justify;
+}
+
+#why b {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#for {
+    font-size: larger;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dlp img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*deathloop ends*/
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Login | The Shop Nuts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/main/header-footer.css">
+    <link rel="stylesheet" href="../styles/main/login.css">
+    <link rel="stylesheet" href="../styles/queries/header-footer-queries.css">
+    <link rel="stylesheet" href="../styles/queries/login-queries.css">
+    <link rel="shortcut icon" href="../images/headerFooterImg/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- HEADER SECTION STARTS -->
+        <header class="header">
+            <a class="logo-link" href="#">
+                <img class="logo-img" src="../images/headerFooterImg/logo.png" alt="The Shop Logo">
+            </a>
+            <nav class="main-nav">
+                <div href="#" class="toggle-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="main-nav-list">
+                    <li class="main-nav-item"><a class="main-nav-link" href="../../index.html">Home</a></li>
+                    <li class="main-nav-item"><a class="main-nav-link" href="../../Fashion/products.html">Products</a></li>
+                    <li class="main-nav-item"><a class="main-nav-link" href="../../Entertainment/aboutus.html">Aboutus</a></li>
+                    <li class="main-nav-item"><a class="main-nav-link" href="../../Laptops/contact.html">Contact</a></li>
+                    <li class="main-nav-item"><a class="main-nav-link" href="login.html">Login</a></li>
+                    <li class="main-nav-item"><span class="main-nav-link icon"><i class="fa fa-shopping-bag"></i></span>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- HEADER SECTION ENDS -->
+
+        <!-- MAIN SECTION STARTS -->
+        <main>
+            <h1>Customer Login</h1>
+            <div id="inner">
+                <div id="login">
+                    <form action="" method="post">
+                        <fieldset>
+                            <h2>Login</h2>
+                            <p>Have you already subscribed? Enter your email address and your password below to sign in.
+                            </p>
+                            <label for="email">Email </label>
+                            <input type="email" name="email" id="email" required autofocus> <span></span>
+                            <label for="password">Password </label>
+                            <input type="password" name="password" id="password" required> <span></span>
+                            <input type="button" value="Sign In" id="sign-in-button">
+                            <p>OR sign up in a different way!</p>
+                            <input type="button" value="Sign Up" id="sign-up-button"> 
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="register">
+                    <h2>Register</h2>
+                    <p>Creating an account is free and without obligation. The subscription will allow you to benefit
+                        from many advantages: modify your personal information, access your order history, update your
+                        wishlist and more!</p>
+                        <input type="button" value="Create an Account" id="register-button">
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- FOOTER SECTION STARTS -->
+    <footer class="footer">
+
+        <!-- FOOTER ROW STARTS -->
+        <div class="footer-grid-container footer-row">
+
+            <!-- LEFT COLUMN STARTS -->
+            <div class="footer-grid-item column left">
+                <p class="footer-title-text">Download our App</p>
+                <p class="footer-text">Download our app at both PlayStore as well as AppStore</p>
+                <div class="app-icons">
+                    <img src="../images/headerFooterImg/apple.png" alt="App Store">
+                    <img src="../images/headerFooterImg/google.png" alt="Google Play Store">
+                </div>
+            </div>
+            <!-- LEFT COLUMN ENDS -->
+
+            <!-- MIDDLE COLUMN STARTS -->
+            <div class="footer-grid-item column middle">
+                <a class="logo-link" href="#">
+                    <img class="footer-logo-img" src="../images/headerFooterImg/logo.png" alt="The Shop Logo">
+                </a>
+                <p class="footer-text">Anything you need THE SHOP is always there for you 😊</p>
+            </div>
+            <!-- MIDDLE COLUMN ENDS -->
+
+            <!-- RIGHT COLUMN STARTS -->
+            <div class="footer-grid-item column right">
+                <div>
+                    <p class="footer-title-text">Useful Links</p>
+                    <ul class="footer-nav-list">
+                        <li><a class="footer-nav-link" href="../../index.html">Home</a></li>
+                        <li><a class="footer-nav-link" href="../../Fashion/products.html">Products</a></li>
+                        <li><a class="footer-nav-link" href="../../Entertainment/aboutus.html">About Us</a></li>
+                        <li><a class="footer-nav-link" href="../../Laptops/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="footer-title-text">Follow us</p>
+                    <ul class="social-nav-list">
+                        <li><span class="icon footer-icon"><i class="fa fa-facebook-official"></i></span></li>
+                        <li><span class="icon footer-icon"><i class="fa fa-instagram"></i></span></li>
+                        <li><span class="icon footer-icon"><i class="fa fa-twitter"></i></span></li>
+                        <li><span class="icon footer-icon"><i class="fa fa-youtube-play"></i></span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- RIGHT COLUMN ENDS -->
+
+        </div>
+        <!-- FOOTER ROW ENDS -->
+
+        <p class="copyright">Copyright &copy 2022 - THE SHOP</p>
+    </footer>
+    <!-- FOOTER SECTION ENDS -->
+
+    <script src="../js/login/login.js"></script>
+</body>
+
+</html>

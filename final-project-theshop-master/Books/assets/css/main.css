@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(#87abe3, #fcf7f4);
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER SECTION STARTS */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LOGO SECTION STARTS */
+.logo-link {
+    display: inline-block;
+}
+
+.logo-img {
+    display: block; /* display: block - To remove extra space below the image */
+    width: 8rem;
+}
+/* LOGO SECTION ENDS */
+
+.toggle-btn {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 1.3rem;
+    right: 1.3rem;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #555;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    min-height: 4rem;
+}
+
+.main-nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.main-nav-link,
+.sub-nav-link {
+    color: #555;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 1.4rem;
+}
+
+.main-nav-link:last-child {
+    margin-right: 0;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active,
+.sub-nav-link:hover,
+.sub-nav-link:active {
+    color: #26a69a;
+}
+
+.sub-nav-list {
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+
+.main-nav-item:hover .sub-nav-list {
+    display: block;
+    line-height: 1.5;
+}
+
+.sub-nav-list {
+    padding-top: 0.3rem;
+}
+
+.current {
+    color: #26a69a;
+}
+
+.icon {
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.icon:hover {
+    color: #26a69a;
+    cursor: pointer;
+}
+/* HEADER SECTION ENDS */
+
+
+.wrapper {
+    max-width: 75%;
+    margin: auto;
+}
+
+.book_button {
+    display: inline-block;
+    background: #0d2b5b;
+    color: #fff;
+    padding: 4px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+
+/** BOOKS BEGINS */
+#maingrid{
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 400px 400px ;
+    margin: 0;
+    display: grid;
+    gap: 40px;
+    padding: 50px;
+    grid-template-areas:
+        "header header header header header"
+        "vid bk1 bk2 bk3 bk4"
+        "empt bk5 bk6 bk7 bk8"
+       ;
+
+}
+
+.hdiv {grid-area: header;}
+.videodiv {grid-area: vid;}
+.emptydiv {grid-area: empt;}
+.b1 {grid-area: bk1;}
+.b2 {grid-area: bk2;}
+.b3 {grid-area: bk3;}
+.b4 {grid-area: bk4;}
+.b5 {grid-area: bk5;}
+.b6 {grid-area: bk6;}
+.b7 {grid-area: bk7;}
+.b8 {grid-area: bk8;}
+
+.galery img {
+    width: 25%;
+    float: left;
+}
+
+@keyframes slayt {
+    0% {left: 0%;}
+    15% {left: 0%;}
+    25% {left: -100%;}
+    45% {left: -100%;}
+    50% {left: -200%;}
+    70% {left: -200%;}
+    75% {left: -300%;}
+    95% {left: -300%;}
+}
+
+#video {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+#h2_video {
+    text-align: center;
+}
+
+.frame {
+    width: 80%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.galery {
+    position: relative;
+    width: 400%;
+    left: 0;
+    animation: 16s slayt infinite;
+}
+
+#book_h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 4rem;
+}
+
+.img {
+    width: 180px;
+    height: 275px;
+    
+}
+
+
+
+
+/** BOOKS ENDS */
+
+
+
+
+
+
+/**  DonQuixote Starts**/
+
+
+#one_book {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "div1 div2 div3";
+    margin-right:0;
+    grid-gap: 10px;
+    padding: 30px;
+}
+
+#div1 {grid-area: div1;
+        justify-content: center;
+    }
+
+ #img3{margin-left: 120px
+        }
+ #mequal{margin-left: 120px
+ }       
+#div2 {grid-area: div2;}
+#div3 {grid-area: div3;}
+
+#div1 {
+    grid-area: div1;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 20px;
+
+}
+
+#comments_p {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+}
+
+#comments {
+    display: block;
+    margin: auto;
+    min-width: 200px;
+    min-height: 100px;
+}
+
+
+#div3 {
+    grid-area: div3;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 20px;
+}
+
+#video2 {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+#h2_video2 {
+    text-align: center;
+}
+
+.frame2 {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.galery2 {
+    position: relative;
+    width: 400%;
+    left: 0;
+    animation: 16s slayt infinite;
+}
+
+.galery img2 {
+    width: 100%;
+   
+}
+
+.book_button {
+    margin-bottom: 0;
+}
+
+/**  DonQuixote Ends**/
+
+
+/*SIGN_IN PAGE STARTS  */
+.scontainer {
+    grid-template-columns: 225px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    width: 40%;
+    margin: 0 30% 2% 30%;
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    grid-template-areas:
+        "head head"
+        "firstName lastName"
+        "email email"
+        "password password"
+        "confirm confirm"
+        "policy policy"
+        "signup cancel"
+        "login login" ;
+
+}
+
+.sdiv1 {grid-area: head;}
+.sdiv2 {grid-area: firstName;}
+.sdiv3 {grid-area: lastName;}
+.sdiv4 {grid-area: email;}
+.sdiv5 {grid-area: password;}
+.sdiv6 {grid-area: confirm;}
+.sdiv7 {grid-area: policy;}
+.sdiv8 {grid-area: signup;}
+.sdiv9 {grid-area: cancel;}
+.sdiv10 {grid-area: login;}
+
+.grey {
+    color: rgb(152, 149, 149);
+    font-size: 18px;
+    padding: 10px;
+}
+
+.input {
+    border-radius: 2px;
+    border: 0px;
+}
+
+.signUpHeader {
+    border-bottom: 3px solid rgb(218, 213, 213);
+}
+
+#signUp:focus {
+    color: white;
+    background-color: rgb(3, 51, 3);
+}
+
+#reset:focus {
+    color: white;
+    background-color: red;
+}
+
+
+
+/*SIGN_IN PAGE ENDS */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+/* .wrapper {
+    width: 95%;
+    margin: 0 auto;
+} */
+
+
+
+/* FOOTER SECTION STARTS */
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    padding: 3.6rem 9.6rem 1.2rem;
+}
+
+.footer-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 1.6rem;
+}
+
+.column {
+    float: left;
+}
+
+.footer-title-text {
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #26a69a;
+}
+
+.footer-text {
+    font-size: 1rem;
+    color: #8a8a8a;
+}
+
+.app-icons {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 1.6rem;
+}
+
+.footer-logo-link {
+    display: inline-block;
+}
+
+.footer-logo-img {
+    display: block; /* display: block - To remove extra space below the image */
+    width: 13rem;
+    margin: 0 auto 1.2rem;
+}
+
+.footer-nav-list {
+    list-style-type: none;
+}
+
+.footer-nav-link {
+    font-size: 1rem;
+    color: #8a8a8a;
+    text-decoration: none;
+}
+
+.footer-nav-link:hover {
+    color: #e5e7e9;
+}
+
+.social-nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    list-style-type: none;
+}
+
+.footer-icon:hover {
+    color: #e5e7e9;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.left {
+    width: 25%;
+}
+
+.middle {
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+/* FOOTER SECTION ENDS */

@@ -1,0 +1,16 @@
+.container{
+    margin: 5rem auto;
+    width: 70%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    padding: 7rem;
+    text-align: center;
+}
+
+h1{
+    color: #26a69a;
+}
